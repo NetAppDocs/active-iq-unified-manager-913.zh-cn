@@ -595,7 +595,7 @@ Volume
 
 
  a| 
-已违反卷延迟毫秒 / 操作严重阈值（ ocumVolumeLatencyIncident ）
+已违反卷延迟严重阈值(ocumVolumeLatencyIncident)
  a| 
 意外事件
  a| 
