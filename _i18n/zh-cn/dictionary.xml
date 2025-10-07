@@ -11089,7 +11089,6 @@
   <block id="357a35aedd0c37deb3a881df778a9bb4" category="list-text">单击 * 还原 * 。</block>
   <block id="58c0234305a387b4aa60babbbd858295" category="paragraph">此时将开始还原过程。在后端创建作业以完成还原过程。</block>
   <block id="aa2724776cabef1aaa6642e924be93b0" category="list-text">如果要查看作业进度、请从左侧导航窗格导航到*保护&gt;作业*、从作业列表中查看还原作业的状态。</block>
-  <block id="f19eba4a48c0d8762f03ea93717fbfea" category="paragraph">如果 Cloud Volumes ONTAP HA 集群之间的还原操作失败并显示 NDMP 错误，您可能需要在目标集群中添加显式 AWS 路由，以便目标可以与源系统的集群管理 LIF 进行通信。您可以使用BlueXP执行此配置步骤。</block>
   <block id="da824e2ac7cbba7766b2892dafabcfae" category="summary">如果作业完成时间过长，遇到过多错误或不再需要，您可以使用作业页面中止作业。只有当作业的状态和类型允许时，才能中止该作业。您可以中止任何正在运行的作业。</block>
   <block id="1c12c5d8cbc396b002ed9535e6114aa2" category="doc">中止作业</block>
   <block id="2f0eec6ab9cc9e91d12e272bb672a463" category="list-text">从作业列表中，选择一个作业，然后单击 * 中止 * 。</block>
@@ -12031,4 +12030,5 @@
   <block id="e9686e752e3e1702e7ee8d1247e9c592" category="paragraph">Storage VM已停止(ocumEvtVserverDown)</block>
   <block id="41c588540e5418dc49ed54117bd1d484" category="paragraph">已违反卷延迟警告阈值(ocumVolumeLatencyWarning)</block>
   <block id="16fca8959952fb5be3bdfc77f00821e0" category="paragraph">已违反卷延迟严重阈值(ocumVolumeLatencyIncident)</block>
+  <block id="323f966c65a63cb769e4f899cb19451f" category="paragraph">如果Cloud Volumes ONTAP HA 集群之间的还原操作因 NDMP 错误而失败，则可能需要在目标集群中添加明确的 AWS 路由，以便目标可以与源系统的集群管理 LIF 进行通信。您可以使用NetApp控制台执行此配置步骤。</block>
 </blocks>
